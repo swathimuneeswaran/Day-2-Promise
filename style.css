@@ -1,0 +1,59 @@
+
+.col-lg-4 
+{
+  
+    display:flex;
+    flex-direction:column; 
+    gap:30px; 
+     margin-top:60px; 
+}
+.card
+{
+    border:2px solid black;  
+    box-shadow:5px 5px rgb(35, 33, 33);
+    background-image: linear-gradient(to left,gray,white);
+}
+
+
+.card-header
+{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    color:whitesmoke;
+    text-shadow:2px 1px red;
+}
+
+.card-body img {
+
+    margin-left:70px;
+    border:2px solid black;
+    box-shadow:5px 5px gray;
+
+}
+
+.card-body p{
+    margin-left:75px;
+    margin-top:30px;
+    color:black;
+    font-family:cursive;
+}
+
+.card-body button 
+{
+    margin-left:70px;
+    
+}
+
+
+.btn
+{
+    border:2px solid black;
+
+}
+
+.btn:hover{
+    color:aqua;
+    text-decoration:underline darkred;
+    background-color:blueviolet;
+}
